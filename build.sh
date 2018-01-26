@@ -23,6 +23,7 @@ minikube start --vm-driver kvm2
 curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get | bash
 helm init
 
+# https://media.readthedocs.org/pdf/zero-to-jupyterhub-with-kubernetes/stable/zero-to-jupyterhub-with-kubernetes.pdf
 # Use kubernetes to install tiller
 kubectl --namespace kube-system create sa tiller
 kubectl create clusterrolebinding tiller --clusterrole cluster-admin --serviceaccount=kube-system:tiller
