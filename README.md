@@ -4,7 +4,9 @@ I'm testing out a deployment of [BinderHub](https://binderhub.readthedocs.io/en/
 
 [Medium post on setting up Kubernetes on Ubuntu 16](https://medium.com/@SystemMining/setup-kubenetes-cluster-on-ubuntu-16-04-with-kubeadm-336f4061d929)
 
-My goal is to deploy a functioning BinderHub that can start Jupyter Notebooks /w RStudio on from my personal Github repository pages. I eventually want to scale up, adding compute nodes to the master node.
+My goal is to deploy a functioning BinderHub that can start Dockerized Jupyter Notebooks (some with /w RStudio) from my personal Github repos. 
+
+I eventually want to scale up, adding multiple compute nodes to the master node.
 
 # Kubernetes
 
